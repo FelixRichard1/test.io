@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* DÉBUT : NE PAS TOUCHER, NÉCESSAIRE AU BON FONCTIONNEMENT DU PROGRAMME */
+.hidden {
+  display: none !important;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 90%;
+  padding: 20px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: verdana, sans-serif;
+  background: #e0e0e0;
+}
+
+#canvas {
+  width: 90%;
+  height: 90%;
+  padding: 1rem;
+}
+
+#player {
+  width: 32px;
+  height: 32px;
+  background-color: black;
+  border-radius: 100%;
+}
+
+#lift {
+  width: 64px;
+  height: 128px;
+  background-color: black;
+  border-radius: 10%;
+}/*# sourceMappingURL=styles.css.map */
